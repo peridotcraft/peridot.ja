@@ -1,0 +1,84 @@
+--- Quina Template
+include:
+  - _main.yml
+vars:
+  title: Getting start
+  tags:
+    - top
+    - test
+    - sample
+  category: peridot
+  links:
+    sample: http://google.jp
+    sample2: http://google.jp
+  images:
+    - "http://event.physicaloid.info/assets/img/peridot/peridot1.jpg"
+    - "http://event.physicaloid.info/assets/img/peridot/peridot2.jpg"
+---
+
+## 開発の流れ
+
+PERIDOTのような物理デバイスの開発の流れは、
+ハードウェアに対する開発の部分と、ハードウェアを利用するクライアントソフト側の開発とに分けられます。
+
+とりわけ、FPGAを搭載するPERIDOTでは、ハードウェアに対する開発の幅も、非常に広く
+高いパフォーマンスを自由なスタイルで利用する事ができます。
+
+## 設定ファイルの作成
+
+PERIDOTのデバイス開発は、簡単な設定ファイルを記述する形で行うことが可能です。
+
+例えばPERIDOTに接続されたモータを利用する場合は、次のような設定ファイルを作成します。
+
+~~~~
+configuration.xml
+
+use motar
+port 8000
+~~~~
+
+### コンパイル
+
+FPGAのコンパイルには通常、[Altera](http://google.com)のコンパイル環境を構築する必要がありますが、
+Physicaloidの[クラウドコンパイル]()環境を利用することで、面倒な開発環境の用意を省略することも可能です。
+クラウドコンパイルの利用については、[クラウドコンパイルについて]を御覧ください。
+
+## クライアントの作成
+
+PERIDOTのバイナリが用意できたら、いよいよAndroidやPCから利用することが可能です。
+
+### Androidの場合
+
+Androidの場合、ApplicationパッケージやWeb経由で、
+FPGAバイナリのデプロイを行うことができます。
+
+~~~~
+sample code here
+~~~~
+
+設定ファイルで記述したポートに信号を送る場合には、次のようなコードを記述します。
+
+~~~~
+sample code here
+~~~~
+
+### PCの場合(ChromeApplication)
+
+Androidの場合、ApplicationパッケージやWeb経由で、
+FPGAバイナリのデプロイを行うことができます。
+
+~~~~
+sample code here
+~~~~
+
+設定ファイルで記述したポートに信号を送る場合には、次のようなコードを記述します。
+
+~~~~
+sample code here
+~~~~
+
+## バイナリの公開
+
+PhysicaloidではPERIDOTの向けに作成されたバイナリやアプリケーションを公開する
+[アプリケーションカタログ]()を用意しています。
+

@@ -1,0 +1,32 @@
+--- Quina Template
+layout: template=peridot/physicaloid layout=peridot/simple
+md: true
+db:
+  con: default
+  crud:
+    - Quina\Crud\Quina
+    - Quina\Crud\Tags
+---
+
+
+
+Content Map
+
+* 非CMS固定ページ
+
+TopPage* : 一覧
+  Contact*:
+  Contribute
+
+Peridot
+  GettingStart
+  Configuration
+  Compile Ways
+  Cloud Compile
+  Android
+  ChromeApplication
+
+
+
+
+

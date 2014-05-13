@@ -1,0 +1,41 @@
+--- Quina Template
+include:
+  - _main.yml
+vars:
+  title: Products List
+  tag: top,
+  summary: |
+    フィジカルコンピューティングのもっと楽しい未来をつくる、physicaloidの製品リストです。
+
+----
+
+## Physicaloid Arduino 'PocketDuino'
+
+<img src="http://placehold.it/800x400/&text=PocketDuino"/>
+
+PocketDuinoはAndroidに直挿しできるArduino基板です。
+
+コンパクトな形状はAndroid向けガジェットのプロトタイプ制作にピッタリ。Arduino基板なので、
+Arduinoのモジュールをそのまま利用することができます。開発環境もArduinoのものがそのまま利用可能なため、
+多様なセンサーをつなぎあわせて独自のプログラミンを、、、というようなArduinoの開発手法がこのサイズで実現できるようになりました。
+
+さらにPhysicaloidライブラリを通じたAndroidデバイスからのROMの書き換えにも対応。
+PCに繋がず直接Arduinoプログラミングが出来るのはもちろんのこと、
+アプリ経由で状況に応じて基板の状況を柔軟に切り替えるなど、デバイス制作の幅が無限に広がります。
+
+
+## Physicaloid FPGA 'PERIDOT'
+
+<img src="http://placehold.it/800x400/&text=peridot"/>
+
+PERIDOTは、Arduinoフォームファクタを採用したFPGA基板です。
+
+パワフルなパフォーマンスを秘めたFPGA基板をArduinoフォームファクタにまとめることで、
+Arduinoシールドを用いながら、Arduino以上の可能性に挑戦することができるようになりました。
+
+複雑なFPGAプログラミングもPhysicaloidライブラリを用いて簡単に構築可能。
+設定ファイルを記述するだけで、Web上から自分だけのバイナリが取得できる、PhysicaloidのWebコンパイラを用いて、
+今までにない身近で簡単なFPGAプログラミングが楽しめます。
+
+対応プラットフォームもAndroidに加えChromeAppを追加。パワフルなパフォーマンスを
+スマホでもPCでも手軽に体感できます。
