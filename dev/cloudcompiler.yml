@@ -1,0 +1,22 @@
+--- Quina Template
+include:
+  - _main.yml
+vars:
+  title: Physicaloid Cloud Compiler
+  sort: 3000;
+  category: top
+#  links:
+#  images:
+#    - "http://event.physicaloid.info/assets/img/peridot/peridot1.jpg"
+#    - "http://event.physicaloid.info/assets/img/peridot/peridot2.jpg"
+---
+
+## クラウドコンパイラ
+
+開発環境の構築が難しい場合でも問題ありません。Physicaloidにはクラウドコンパイラがあります。
+
+## ソースの準備
+
+## コンパイルの実行
+
+## ホスティングと公開

@@ -2,18 +2,13 @@
 include:
   - _main.yml
 vars:
-  title: Physicaloid FPGA 'PERIDOT'
-  tags:
-    - top
-    - test
-    - sample
-  category: peridot
-  links:
-    sample: http://google.jp
-    sample2: http://google.jp
-  images:
-    - "http://event.physicaloid.info/assets/img/peridot/peridot1.jpg"
-    - "http://event.physicaloid.info/assets/img/peridot/peridot2.jpg"
+  title: Chrome Application
+  sort: 2000;
+  category: top
+#  links:
+#  images:
+#    - "http://event.physicaloid.info/assets/img/peridot/peridot1.jpg"
+#    - "http://event.physicaloid.info/assets/img/peridot/peridot2.jpg"
 ---
 
 ## Physicaloid FPGA 'PERIDOT'

@@ -2,12 +2,16 @@
 include:
   - _main.yml
 vars:
-  title: Specification - Physicaloid FPGA 'PERIDOT'
-  tag: top,
-  images:
-    - "http://placehold.it/800x400/&text=spec_page"
-    - "http://placehold.it/800x400/&text=physicaloid"
-----
+  title: Specification
+  sort: 2000;
+  category: top
+  links:
+    - top/spec
+    - top/product
+#  images:
+#    - "http://event.physicaloid.info/assets/img/peridot/peridot1.jpg"
+#    - "http://event.physicaloid.info/assets/img/peridot/peridot2.jpg"
+---
 
 ## Specifications
 

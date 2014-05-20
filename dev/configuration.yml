@@ -1,0 +1,16 @@
+--- Quina Template
+include:
+  - _main.yml
+vars:
+  title: Configuration file
+  sort: 2000;
+  category: top
+#  links:
+#  images:
+#    - "http://event.physicaloid.info/assets/img/peridot/peridot1.jpg"
+#    - "http://event.physicaloid.info/assets/img/peridot/peridot2.jpg"
+---
+
+## Configurationファイルの作成
+
+PERIDOTのFPGA開発は構成ファイルを使用することで、シンプルにわかりやすい開発スタイルが、、、、

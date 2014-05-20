@@ -1,0 +1,18 @@
+--- Quina Template
+include:
+  - _main.yml
+vars:
+  title: Altera Compiler
+  sort: 4000;
+  category: top
+#  links:
+#  images:
+#    - "http://event.physicaloid.info/assets/img/peridot/peridot1.jpg"
+#    - "http://event.physicaloid.info/assets/img/peridot/peridot2.jpg"
+---
+
+## アルテラコンパイラの構築
+
+コンパイル環境の構築方法
+
+クラウドコンパイルも使えることを文末に明記

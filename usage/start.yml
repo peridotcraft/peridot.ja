@@ -1,0 +1,68 @@
+--- Quina Template
+include:
+  - _main.yml
+vars:
+  title: How to play with PERIDOT
+  sort: 1000;
+  category: top
+#  links:
+#  images:
+#    - "http://event.physicaloid.info/assets/img/peridot/peridot1.jpg"
+#    - "http://event.physicaloid.info/assets/img/peridot/peridot2.jpg"
+---
+
+## 'PERIDOT' 3つのスタイル
+
+PERIDOTには次の3種類の利用方法があります。
+
+- stand aloneモード
+- Chrome Application 接続での制御
+- Android 接続での制御
+
+ハードウェアの構成を元に、お好きな構成を選択して、幅広い用途に活用することが可能です。
+
+## Stand Aloneモード
+
+PERIDOTの特徴の一つとしてStandAloneでも動作可能、という点が挙げられます。
+
+給電は、、、、経由で行い、、、、、
+
+## Chrome Application接続
+
+ChromeApplicationを経由することでPERIDOTとPCとの接続が可能です。
+
+PERIDOTとChromeApplication間での通信はシリアルポートAPI経由で行います。
+
+例えば、xxxxxする場合、ChromeApplicationのJavascriptで、
+
+~~~~~
+xxxx
+xxxx
+~~~~~
+
+のように記述することで、通信制御を行うことが可能です。
+
+ChromeApplicationであるため、OSを問わず様々なPCで動作可能で、
+アプリケーションの公開もChromeStore経由で簡単に行うことができます。
+
+ChromeApplicationの開発の詳細については、[ChromeApplication]()を確認して下さい。
+
+## Android接続
+
+PERIDOTはAndroidと接続して利用することも可能です。
+
+PERIDOTとAndroid間での通信はシリアルポートAPI経由で行います。
+
+例えば、xxxxxする場合、Androidのネイティブコードで、
+
+~~~~~
+xxxx
+xxxx
+~~~~~
+
+のように記述することで、通信制御を行うことが可能です。
+
+ChromeApplicationであるため、OSを問わず様々なPCで動作可能で、
+アプリケーションの公開もChromeStore経由で簡単に行うことができます。
+
+Androidの開発の詳細については、[Android]()を確認して下さい。

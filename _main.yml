@@ -1,5 +1,5 @@
 --- Quina Template
-layout: template=peridot/physicaloid layout=peridot/simple
+layout: template=layout layout=doc/simple
 md: true
 db:
   con: default

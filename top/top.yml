@@ -1,0 +1,62 @@
+--- Quina Template
+include:
+  - _main.yml
+vars:
+  title: Physicaloid FPGA 'PERIDOT'
+  sort: 1000;
+  category: top
+#  links:
+#  images:
+#    - "http://event.physicaloid.info/assets/img/peridot/peridot1.jpg"
+#    - "http://event.physicaloid.info/assets/img/peridot/peridot2.jpg"
+---
+
+## Physicaloid FPGA 'PERIDOT'
+
+PERIDOT(ペリドット)はArduinoフォームファクタのFPGA基板です。複雑なFPGA開発も、Physicaloidライブラリを利用することで簡単に実現できます。
+
+また、クラウドコンパイル技術で、開発スタイルはよりスマートに。より多くの人々により高い性能を。PERIDOTでフィジカルコンピューティングの世界が広がります。
+
+## 全ての人にFPGAの楽しみを
+
+PERIDOTが目指したのは、誰にでも使えるより身近なFPGAの世界。
+
+敷居の高かったFPGA開発も、Physicaloidライブラリを利用すれば、部品をつなぎ合わせるような感覚で簡単に進められます。
+
+
+## FPGAのパフォーマンスをポケットの中へ
+
+Arduinoフォームファクタを採用するPERIDOTは、FPGAを用いたポケットサイズのガジェット制作に最適です。
+
+FPGAのもたらす専用回路並みの高パフォーマンス性能も、簡単なプログラミングでポケットの中に実現します。
+
+
+## ハードとソフトをより身近に
+
+PERIDOTの開発に必要な物はテキストエディタだけ。コンパイル環境はクラウドにお任せください。
+
+Physicaloid Webなら、コンパイルから作成したファームウェアの公開まで、必要な全てをWeb上で簡単に行えます。
+
+
+## Specifications
+
+- Android/Chromeからのコンフィグレーション可能
+- USBシリアルインターフェース経由でのFPGA内部へのアクセスをサポート
+- ALTERA CycloneIV E(EP4CE6E22C8N)搭載
+- 64Mbit SDRAM(最大133MHz動作)搭載
+- 28本のユーザーI/O
+- スタンドアロン動作をサポート
+- USB給電のみで動作OK (過電流保護回路搭載)
+- Arduinoシールドの流用可能(動作条件あり)
+- オープンソース (クリエイティブコモンズ・CC BY 2.1)
+
+## Board Pin out
+
+- FPGA Device	Altera CycloneIV E(EP4CE6E22C8N)
+- Configuration ROM	4Mbit SPI Flash(EPCS4 compatible)
+- OnBoard RAM	64Mbit SDRAM(up to 133MHz)
+- Operating Voltage	4.5-5.5V(USB Bus Powered)
+- Operating Current	300mA(Does not include shield)
+- I/O Voltage	3.3V(LVTTL-3.3V/LVCMOS-3.3V)
+- Digital I/O Pins	28
+- DC Current per I/O Pin	25mA(max)
