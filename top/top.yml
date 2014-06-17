@@ -1,14 +1,23 @@
 --- Quina Template
 include:
   - _main.yml
+links:
+  -
+    title: おすすめの検索エンジンです。
+    url: "http://google.jp"
+  -
+    title: おすすめの検索エンジンです2
+    url: top/top
+images:
+    - "http://event.physicaloid.info/assets/img/peridot/peridot1.jpg"
+    - "http://event.physicaloid.info/assets/img/peridot/peridot2.jpg"
+shopping:
+    price: $3000
+    description:
+    shippingFee: $100
 vars:
   title: Physicaloid FPGA 'PERIDOT'
   sort: 1000;
-  category: top
-#  links:
-#  images:
-#    - "http://event.physicaloid.info/assets/img/peridot/peridot1.jpg"
-#    - "http://event.physicaloid.info/assets/img/peridot/peridot2.jpg"
 ---
 
 ## Physicaloid FPGA 'PERIDOT'

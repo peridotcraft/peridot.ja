@@ -4,11 +4,6 @@ include:
 vars:
   title: How to play with PERIDOT
   sort: 1000;
-  category: top
-#  links:
-#  images:
-#    - "http://event.physicaloid.info/assets/img/peridot/peridot1.jpg"
-#    - "http://event.physicaloid.info/assets/img/peridot/peridot2.jpg"
 ---
 
 ## 'PERIDOT' 3つのスタイル

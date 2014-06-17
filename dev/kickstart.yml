@@ -3,12 +3,7 @@ include:
   - _main.yml
 vars:
   title: Kick start with 'PERIDOT'
-  category: top
   sort: 1000;
-#  links:
-#  images:
-#    - "http://event.physicaloid.info/assets/img/peridot/peridot1.jpg"
-#    - "http://event.physicaloid.info/assets/img/peridot/peridot2.jpg"
 ---
 
 ## 'PERIDOT'の開発
@@ -30,7 +25,6 @@ PERIDOTは高性能なFPGA基板ですが、基板そのものでは何かを行
 PERIDOTの場合、、、、、、なポートが用意されており、そこに自由にセンサーなどを配置することができます。
 ここでは試しにxx番にxxxxをつないでみることにします。
 
-## Chrome Application接続
 
 ## PERIDOTの基板プログラミング
 
@@ -44,11 +38,11 @@ PERIDOTの場合Physcaloidライブラリを用いることで、簡単に実装
 xxxxxxxx
 ~~~~
 
-このようにして記述した構成ファイルはローカルに構築した[PERIDOTコンパイル環境](http://google.jp)
-や[Physicaloid クラウドコンパイラ](http://google.jp)を用いることでバイナリに展開することが可能です。
+このようにして記述した構成ファイルはローカルに構築した[PERIDOTコンパイル環境](url:dev/altera)
+や[Physicaloid クラウドコンパイラ](url:dev/cloudcompiler)を用いることでバイナリに展開することが可能です。
 
 Physicaloidライブラリを用いた構成ファイル作成の詳細については、
-[構成ファイル](#android)、を確認して下さい。
+[構成ファイル](url:dev/configuration)、を確認して下さい。
 
 
 ## デプロイ

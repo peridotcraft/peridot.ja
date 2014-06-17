@@ -1,6 +1,11 @@
 --- Quina Template
 layout: template=layout layout=doc/simple
-md: true
+document: true
+url: true
+vars:
+  siteTitle: PERIDOT
+  siteDescription: PHYSICALOID PFGA
+
 db:
   con: default
   crud:

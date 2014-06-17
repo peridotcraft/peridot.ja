@@ -4,11 +4,6 @@ include:
 vars:
   title: Chrome Application
   sort: 2000;
-  category: top
-#  links:
-#  images:
-#    - "http://event.physicaloid.info/assets/img/peridot/peridot1.jpg"
-#    - "http://event.physicaloid.info/assets/img/peridot/peridot2.jpg"
 ---
 
 ## Physicaloid FPGA 'PERIDOT'

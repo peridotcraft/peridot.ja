@@ -4,11 +4,6 @@ include:
 vars:
   title: Physicaloid Cloud Compiler
   sort: 3000;
-  category: top
-#  links:
-#  images:
-#    - "http://event.physicaloid.info/assets/img/peridot/peridot1.jpg"
-#    - "http://event.physicaloid.info/assets/img/peridot/peridot2.jpg"
 ---
 
 ## クラウドコンパイラ
@@ -16,6 +11,10 @@ vars:
 開発環境の構築が難しい場合でも問題ありません。Physicaloidにはクラウドコンパイラがあります。
 
 ## ソースの準備
+
+Physicaloidのクラウドコンパイラは、面倒なコンパイルの手間を
+Physicaloid FPGA PERIDOTの[設定ファイル](url:dev/configuration)が作成できたら、
+すぐにコンパイルを始めることができます。
 
 ## コンパイルの実行
 

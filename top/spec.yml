@@ -4,13 +4,6 @@ include:
 vars:
   title: Specification
   sort: 2000;
-  category: top
-  links:
-    - top/spec
-    - top/product
-#  images:
-#    - "http://event.physicaloid.info/assets/img/peridot/peridot1.jpg"
-#    - "http://event.physicaloid.info/assets/img/peridot/peridot2.jpg"
 ---
 
 ## Specifications
