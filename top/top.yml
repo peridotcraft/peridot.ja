@@ -2,12 +2,8 @@
 include:
   - _main.yml
 vars:
-  title: "'PERIDOT' - Simple & Compact FPGA board"
-  summary: |
-    PERIDOT(ペリドット)プロジェクトとは、シンプル＆コンパクトをコンセプトに開発中の新しいFPGAボードと、その統合開発環境です。
-    このFPGAボードはArduinoフォームファクタで、Arduino向けに作られたシールドと互換製があります。
-    開発環境はWebベースのクラウドコンパイラとChromeアプリケーションで構築されており、OSを問わない新しい開発スタイルを提供します。
-    また、PERIDOTボードには標準で通信ブロックも組み込まれています。オープン・ソースで公開されているライブラリを利用して、ChromeアプリケーションやAndroidアプリケーションから簡単にアクセスすることができます。
+  title: "'PERIDOT' - Simple & Compact FPGA"
+  summary: PERIDOT(ペリドット)プロジェクトとは、シンプル＆コンパクトをコンセプトに開発中の新しいFPGAボードと、その統合開発環境です。
   sort: 1000;
 ---
 
