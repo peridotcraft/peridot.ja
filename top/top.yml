@@ -1,71 +1,77 @@
 --- Quina Template
 include:
   - _main.yml
-links:
-  -
-    title: おすすめの検索エンジンです。
-    url: "http://google.jp"
-  -
-    title: おすすめの検索エンジンです2
-    url: top/top
-images:
-    - "http://event.physicaloid.info/assets/img/peridot/peridot1.jpg"
-    - "http://event.physicaloid.info/assets/img/peridot/peridot2.jpg"
-shopping:
-    price: $3000
-    description:
-    shippingFee: $100
 vars:
-  title: Physicaloid FPGA 'PERIDOT'
+  title: "'PERIDOT' - Simple & Compact FPGA board"
+  summary: |
+    PERIDOT(ペリドット)プロジェクトとは、シンプル＆コンパクトをコンセプトに開発中の新しいFPGAボードと、その統合開発環境です。
+    このFPGAボードはArduinoフォームファクタで、Arduino向けに作られたシールドと互換製があります。
+    開発環境はWebベースのクラウドコンパイラとChromeアプリケーションで構築されており、OSを問わない新しい開発スタイルを提供します。
+    また、PERIDOTボードには標準で通信ブロックも組み込まれています。オープン・ソースで公開されているライブラリを利用して、ChromeアプリケーションやAndroidアプリケーションから簡単にアクセスすることができます。
   sort: 1000;
 ---
 
-## Physicaloid FPGA 'PERIDOT'
+Overview
+-----------------
+PERIDOT(ペリドット)プロジェクトとは、シンプル＆コンパクトをコンセプトに開発中の新しいFPGAボードと、その統合開発環境です。
+このFPGAボードはArduinoフォームファクタで、Arduino向けに作られたシールドと互換製があります。
+開発環境はWebベースのクラウドコンパイラとChromeアプリケーションで構築されており、OSを問わない新しい開発スタイルを提供します。
+また、PERIDOTボードには標準で通信ブロックも組み込まれています。オープン・ソースで公開されているライブラリを利用して、ChromeアプリケーションやAndroidアプリケーションから簡単にアクセスすることができます。
 
-PERIDOT(ペリドット)はArduinoフォームファクタのFPGA基板です。複雑なFPGA開発も、Physicaloidライブラリを利用することで簡単に実現できます。
-
-また、クラウドコンパイル技術で、開発スタイルはよりスマートに。より多くの人々により高い性能を。PERIDOTでフィジカルコンピューティングの世界が広がります。
-
-## 全ての人にFPGAの楽しみを
-
-PERIDOTが目指したのは、誰にでも使えるより身近なFPGAの世界。
-
-敷居の高かったFPGA開発も、Physicaloidライブラリを利用すれば、部品をつなぎ合わせるような感覚で簡単に進められます。
+![Welcome to PERIDOT](https://lh6.googleusercontent.com/-dpi_AESyN_w/U5TCeTNYXiI/AAAAAAAAG3E/FCWlJFilgqQ/w600-h316-no/DSC02480.jpg)
 
 
-## FPGAのパフォーマンスをポケットの中へ
+Features
+-----------------
+* Android/Chromeからのコンフィグレーション
+* USBシリアルインターフェース経由でのFPGA内部へのアクセス
+* ALTERA CycloneIV E (EP4CE6E22C8N)搭載
+* 64Mbit SDRAM (up to 133MHz)搭載
+* 28本のユーザーI/O
+* スタンドアロン動作をサポート
+* USB給電のみで動作OK (過電流保護回路搭載)
+* Arduinoシールドの流用可能(動作条件あり)
+* オープンソース (クリエイティブコモンズ・CC BY 2.1)
 
-Arduinoフォームファクタを採用するPERIDOTは、FPGAを用いたポケットサイズのガジェット制作に最適です。
 
-FPGAのもたらす専用回路並みの高パフォーマンス性能も、簡単なプログラミングでポケットの中に実現します。
+Interface
+-----------------
+![PERIDOT Board Connector](https://lh3.googleusercontent.com/-mjnC-a-mvtM/UnhcuaqQL0I/AAAAAAAAFso/zZeyUkh4efw/w600-h468-no/peridot_board_connector.png)
+
+* Manual RESET Key
+システム全体のマニュアルリセットを行います。
+
+* JTAG Connector
+FPGAのJTAGピンが配置されています。
+
+* Config MODE Selector
+ボードのコンフィグモードを切り替えます。スタンドアロンで動作させる場合はAS側に、ホストからPhysicaloidライブラリでコンフィグを行う場合はPS側にセットします。
+
+* Power supply and RESET
+シールドへの電源供給とリセット信号が出力されます。電源は3.3V/100mA、USB 5V/100mAが使用できます。最大電流はUSBホストで制限されます。
+
+* Digital I/O
+FPGAのI/Oピンが配置されています。3.3Vを超える電圧を印加しないで下さい。
 
 
-## ハードとソフトをより身近に
+Board block diagram and schematic
+---------------------------------
+![PERIDOT Block diagram](https://lh3.googleusercontent.com/-XpoVXE45BRU/UnhcutSOYOI/AAAAAAAAFss/-6QsIh6Is40/w700-h327-no/peridot_block.png)
 
-PERIDOTの開発に必要な物はテキストエディタだけ。コンパイル環境はクラウドにお任せください。
+(\*1) ASDIはスタンドアロンモードでのみ有効になります。
+(\*2) スタンドアロンモードではリコンフィグキーになります。
 
-Physicaloid Webなら、コンパイルから作成したファームウェアの公開まで、必要な全てをWeb上で簡単に行えます。
+[Board schematic](https://github.com/osafune/peridot/blob/master/pcb/peridot_pcb_ver1.0.pdf)
 
 
-## Specifications
+Pinout diagram
+---------------------------------
 
-- Android/Chromeからのコンフィグレーション可能
-- USBシリアルインターフェース経由でのFPGA内部へのアクセスをサポート
-- ALTERA CycloneIV E(EP4CE6E22C8N)搭載
-- 64Mbit SDRAM(最大133MHz動作)搭載
-- 28本のユーザーI/O
-- スタンドアロン動作をサポート
-- USB給電のみで動作OK (過電流保護回路搭載)
-- Arduinoシールドの流用可能(動作条件あり)
-- オープンソース (クリエイティブコモンズ・CC BY 2.1)
+![PERIDOT Pinout diagram](https://lh3.googleusercontent.com/-XxlwNOIA3iY/U6i-dM-9mwI/AAAAAAAAHAc/RHRm6UER750/w700-h565-no/PERIDOT_PINOUT.png)
+[Large size](https://github.com/osafune/peridot/blob/master/pcb/PERIDOT_PINOUT.png)
 
-## Board Pin out
 
-- FPGA Device	Altera CycloneIV E(EP4CE6E22C8N)
-- Configuration ROM	4Mbit SPI Flash(EPCS4 compatible)
-- OnBoard RAM	64Mbit SDRAM(up to 133MHz)
-- Operating Voltage	4.5-5.5V(USB Bus Powered)
-- Operating Current	300mA(Does not include shield)
-- I/O Voltage	3.3V(LVTTL-3.3V/LVCMOS-3.3V)
-- Digital I/O Pins	28
-- DC Current per I/O Pin	25mA(max)
+License
+-----------------
+PERIDOT Hardware is released under the [Creative Commons,CC BY 2.1 JP](http://creativecommons.org/licenses/by/2.1/jp/legalcode)
+

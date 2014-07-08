@@ -1,0 +1,10 @@
+layout:
+  theme: simple
+  template: single
+  parser: twig
+
+validation:
+  vars.title: required
+  vars.summary: required
+
+category: "_category.yml"
